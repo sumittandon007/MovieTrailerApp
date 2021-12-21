@@ -16,6 +16,7 @@ import org.ehcache.Cache;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
+import org.osgi.service.metatype.annotations.Designate;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -25,6 +26,7 @@ import static com.movietrailer.core.services.impl.EHCacheServiceImpl.DEFAULT_CAC
 
 @Slf4j
 @Component(service = MovieService.class, immediate = true)
+@Designate(ocd = MovieConfig.class)
 public class MovieServiceImpl implements MovieService {
 
     @Reference
