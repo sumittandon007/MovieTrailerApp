@@ -1,0 +1,36 @@
+# Eclipse
+.classpath
+.project
+.settings/
+target/
+
+# VS Code
+.vscode
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Brackets
+.brackets.json
+.Jenkinsfile.swp
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# Frontend
+node
+node_modules
+node_modules_docker
+*.log
+.sass-cache
+
+coverage/
+
+/bin/
+
+

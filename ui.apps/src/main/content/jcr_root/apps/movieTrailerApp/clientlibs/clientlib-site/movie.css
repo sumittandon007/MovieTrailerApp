@@ -1,0 +1,43 @@
+#top-bar{
+    width: 100%;
+    height:50px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+}
+
+#search{
+    margin-top:80px;
+    margin-left:43%;
+    height:40px;
+
+    position: absolute;
+    text-align: center;
+}
+
+#trailers{
+    width:100%;
+    margin-top:170px;
+    margin-left:6%;
+    position: absolute;
+}
+
+.trailerCard{
+    margin-top:30px;
+    margin-right:20px;
+    height:350px;
+}
+
+a{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#contact{
+    margin-top: 100px;
+    margin-left: 20px;
+    position:absolute;
+}

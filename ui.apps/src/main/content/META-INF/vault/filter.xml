@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/movieTrailerApp/clientlibs"/>
+    <filter root="/apps/movieTrailerApp/components"/>
+    <filter root="/apps/movieTrailerApp/templates"/>
+    <filter root="/apps/movieTrailerApp/i18n"/>
+</workspaceFilter>
